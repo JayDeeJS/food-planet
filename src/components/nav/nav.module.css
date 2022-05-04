@@ -1,0 +1,38 @@
+.navMenu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.navLogo{
+    width: 200px;
+    height: 36px;
+    background-image: url("/img/navLogo.svg");
+    background-size: cover;
+}
+
+.navImg1{
+    width: 20px;
+    height: 20px;
+    background-image: url("/img/phoneLogo.svg");
+    background-size: cover;
+    margin-right: 8px;
+}
+
+.navImg2{
+    width: 20px;
+    height: 20px;
+    background-image: url("/img/cartLogo.svg");
+    background-size: cover;
+    margin-right: 8px;
+}
+
+ul a{
+    color: black;
+    text-decoration: none;
+}
+
+a[class="active"] {
+    color: red;
+}
