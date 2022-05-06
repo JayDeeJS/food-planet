@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import styles from "./nav.module.css";
+import images from "../../img";
 
 const Nav = () => {
     return (
@@ -9,7 +10,9 @@ const Nav = () => {
                 <div className={styles.navAligner2}>
                     <nav className={styles.navContent}>
                         <ul className={styles.navMenu}>
-                            <li className={styles.navLogo}></li>
+                            <li className={styles.navLogo}>
+                                <img src={images.navLogo}/>
+                            </li>
                             <NavLink to="/">
                                 <li>Главная</li>
                             </NavLink>
@@ -23,11 +26,15 @@ const Nav = () => {
                                 <li>Контакты</li>
                             </NavLink>
                             <NavLink to="/phone">
-                                <div className={styles.navImg1}></div>
+                                <div className={styles.navImg1}>
+                                    <img src={images.phoneLogo}/>
+                                </div>
                                 <li>+996500405988</li>
                             </NavLink>
                             <NavLink to="cart">
-                                <div className={styles.navImg2}></div>
+                                <div className={styles.navImg2}>
+                                    <img src={images.cartLogo}/>
+                                </div>
                                 <li>1</li>
                             </NavLink>
                         </ul>
@@ -43,7 +50,9 @@ const Nav = () => {
                             <button className={styles.menuBtn}>ПЕРЕЙТИ В МЕНЮ ➤</button>
                         </div>
                     </div>
-                    <div className={styles.subNavRight}></div>
+                    <div className={styles.subNavRight}>
+                        <img className={styles.subNavImg} src={images.subNavLogo}/>
+                    </div>
                 </div>
             </div>
         </>

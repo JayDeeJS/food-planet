@@ -27,23 +27,17 @@
 .navLogo{
     width: 200px;
     height: 36px;
-    background-image: url("/img/navLogo.svg");
-    background-size: cover;
 }
 
 .navImg1{
     width: 20px;
     height: 20px;
-    background-image: url("/img/phoneLogo.svg");
-    background-size: cover;
     margin-right: 8px;
 }
 
 .navImg2{
     width: 20px;
     height: 20px;
-    background-image: url("/img/cartLogo.svg");
-    background-size: cover;
     margin-right: 8px;
 }
 
@@ -75,8 +69,6 @@ a[class="active"] {
 .subNavRight{
     width: 33%;
     height: 318px;
-    background-image: url("/img/subNavLogo.jpg");
-    background-size: cover;
 }
 
 .subNavText{
@@ -84,6 +76,11 @@ a[class="active"] {
     height: 80%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+}
+
+.subNavImg{
+    width: 450px;
+    height: 330px;
 }
 
 .boldText{

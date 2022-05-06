@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./newproduct.module.css";
+import SingleProduct from "./singleProduct";
 
 const NewProduct = () => {
     return (
@@ -28,11 +29,17 @@ const NewProduct = () => {
                 <div className={styles.sectionTwo}>
                     <p className={styles.marginRight}>Сортировать по:</p>
                     <select name="sort">
-                        <option value="default" selected>По умолчанию</option>
+                        <option value="default" defaultValue>По умолчанию</option>
                         <option value="1">Выбор 1</option>
                     </select>
                 </div>
-            </div>
+                <div className={styles.sectionThree}>
+                    <SingleProduct/>
+                    <SingleProduct/>
+                    <SingleProduct/>
+                    <SingleProduct/>
+                </div>
+            </div> <br/>
         </>
     )
 }
