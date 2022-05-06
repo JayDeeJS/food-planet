@@ -6,7 +6,7 @@ import Nav from "./components/nav/nav";
 function App() {
     return (
         <>
-            <Nav/>
+            <Nav/> <br/>
             <Routes>
                 <Route path="/" element={<Main/>}/>
             </Routes>

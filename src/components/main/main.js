@@ -1,8 +1,9 @@
 import React from 'react';
+import NewProduct from "../newProduct/newProduct";
 
 const Main = () => {
     return (
-        <h1>main</h1>
+        <NewProduct/>
     );
 };
 
