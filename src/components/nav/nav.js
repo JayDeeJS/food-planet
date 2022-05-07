@@ -45,7 +45,7 @@ const Nav = () => {
                     <div className={styles.subNavLeft}>
                         <div className={styles.subNavText}>
                             <p className={styles.boldText}>Доставка вкусной еды до 30 минут + напиток в подарок!</p>
-                            <p>Доставим заказ вовремя и можете рассчитывать, что еда будет доставлена всегда горячей и
+                            <p className={styles.darkColor}>Доставим заказ вовремя и можете рассчитывать, что еда будет доставлена всегда горячей и
                                 ароматной.</p>
                             <button className={styles.menuBtn}>ПЕРЕЙТИ В МЕНЮ ➤</button>
                         </div>

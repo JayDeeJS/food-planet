@@ -25,21 +25,14 @@ const NewProduct = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className={styles.sectionTwo}>
-                    <p className={styles.marginRight}>Сортировать по:</p>
-                    <select name="sort">
-                        <option value="default" defaultValue>По умолчанию</option>
-                        <option value="1">Выбор 1</option>
-                    </select>
-                </div>
+                </div> <br/>
                 <div className={styles.sectionThree}>
                     <SingleProduct/>
                     <SingleProduct/>
                     <SingleProduct/>
                     <SingleProduct/>
                 </div>
-            </div> <br/>
+            </div> <br/> <br/>
         </>
     )
 }

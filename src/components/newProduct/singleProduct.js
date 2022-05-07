@@ -13,9 +13,9 @@ const SingleProduct = () => {
                     гриль, кетчуп, майонез</p>
                 <h4>200 сом</h4>
                 <div>
-                    <button onClick={() => setCount(prevState => prevState - 1)}>-</button>
-                    <span>{count}</span>
-                    <button onClick={() => setCount(prevState => prevState + 1)}>+</button>
+                    <button id="increase" onClick={() => setCount(prevState => prevState - 1)}>-</button>
+                    <span id="count">{count}</span>
+                    <button id="decrease" onClick={() => setCount(prevState => prevState + 1)}>+</button>
                 </div>
                 <button>В КОРЗИНУ</button>
             </div>

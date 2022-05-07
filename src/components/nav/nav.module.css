@@ -89,6 +89,12 @@ a[class="active"] {
     color: #254F4C;
 }
 
+.darkColor{
+    color: #254F4C;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
 .menuBtn{
     width: 200px;
     height: 40px;
