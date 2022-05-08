@@ -135,7 +135,6 @@
 }
 
 .MenuLineup{
-    border: 1px solid deeppink;
     width: 74%;
     display: flex;
     justify-content: space-evenly;

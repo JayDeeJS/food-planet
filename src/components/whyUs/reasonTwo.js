@@ -7,7 +7,7 @@ const ReasonTwo = () => {
         <div className={styles.outlineBrd}>
             <img src={images.freshProduct} alt=""/>
             <h4 className={styles.titleFont}>Свежие продукты</h4>
-            <p className={styles.textFont}>Вся продукция хранится в хороших условиях тем самым продливая срок хранения</p>
+            <p className={styles.textFont}>Вся продукция хранится в хороших условиях тем самым продлевая срок хранения</p>
         </div>
     );
 };

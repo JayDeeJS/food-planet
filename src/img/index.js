@@ -8,7 +8,11 @@ const images = {
     delivery: require("./delivery.svg").default,
     freshProduct: require("./freshProduct.svg").default,
     uniqueMenu: require("./uniqueMenu.svg").default,
-    location: require("./location.svg").default
+    location: require("./location.svg").default,
+    greyHole: require("./greyHole.png"),
+    penIcon: require("./penIcon.svg").default,
+    footerLogo: require("./footerLogo.svg").default,
+    whitePhoneLogo: require("./whitePhoneLogo.svg").default
 }
 
 export default images;

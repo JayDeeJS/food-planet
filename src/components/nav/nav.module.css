@@ -48,7 +48,7 @@ ul a{
 }
 
 a[class="active"] {
-    color: red;
+    color: orangered;
 }
 
 .subNav{

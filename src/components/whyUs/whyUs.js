@@ -16,7 +16,7 @@ const WhyUs = () => {
                 <ReasonTwo/>
                 <ReasonThree/>
                 <ReasonFour/>
-            </div>
+            </div> <br/> <br/>
         </div>
     );
 };

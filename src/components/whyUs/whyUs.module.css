@@ -1,6 +1,5 @@
 .viewport{
     width: 99.8%;
-    border: 1px solid orangered;
     display: flex;
     flex-direction: column;
     align-items: center;
