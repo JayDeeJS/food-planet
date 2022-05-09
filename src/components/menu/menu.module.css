@@ -89,9 +89,20 @@
 }
 
 .properSpacing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    padding-bottom: 8px;
+    padding-bottom: 7px;
     color: #254F4C;
+}
+
+.btnCount2{
+    border: none;
+    background-color: floralwhite;
+    color: #FF583E;
+    font-size: 21px;
+    cursor: pointer;
 }
 
 .textAlign{
@@ -106,14 +117,7 @@
     padding-bottom: 9px;
 }
 
-.counterButtons{
-    border: none;
-    background-color: floralwhite;
-    color: #FF583E;
-    font-size: 21px;
-}
-
-.cartBtn{
+.btnCart{
     width: 170px;
     height: 40px;
     border: none;

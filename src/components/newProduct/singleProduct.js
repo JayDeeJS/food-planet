@@ -1,9 +1,9 @@
-import React, {useState} from "react";
+import React from "react";
 import images from "../../img";
 import styles from "./newproduct.module.css";
+import {Counter} from "../counter/counter";
 
 const SingleProduct = () => {
-    const [count, setCount] = useState(0);
     return (
         <div className={styles.newProduct}>
             <img className={styles.newProductSize} src={images.newProduct} alt=""/>
@@ -13,11 +13,8 @@ const SingleProduct = () => {
                     гриль, кетчуп, майонез</p>
                 <h4>200 сом</h4>
                 <div>
-                    <button id="increase" onClick={() => setCount(prevState => prevState - 1)}>-</button>
-                    <span id="count">{count}</span>
-                    <button id="decrease" onClick={() => setCount(prevState => prevState + 1)}>+</button>
+                    <Counter/>
                 </div>
-                <button>В КОРЗИНУ</button>
             </div>
         </div>
     )
