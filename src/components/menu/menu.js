@@ -37,8 +37,8 @@ const Menu = () => {
                 <SingleMenuItem/>
                 <SingleMenuItem/>
                 <SingleMenuItem/>
-            </div> <br/>
-            <button className={styles.extendBtn}>ПОКАЗАТЬ ЕЩЕ</button> <br/>
+            </div> <br/> <br/>
+            <button className={styles.extendBtn}>ПОКАЗАТЬ ЕЩЕ</button> <br/> <br/>
         </div>
     )
 }

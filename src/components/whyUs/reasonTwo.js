@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from "./whyUs.module.css";
 import images from "../../img";
+import defaultText from "../../defaultText/defaultText";
 
 const ReasonTwo = () => {
     return (
         <div className={styles.outlineBrd}>
             <img src={images.freshProduct} alt=""/>
-            <h4 className={styles.titleFont}>Свежие продукты</h4>
-            <p className={styles.textFont}>Вся продукция хранится в хороших условиях тем самым продлевая срок хранения</p>
+            <h4 className={styles.titleFont}>{defaultText.whyUsReasonTwoTitle}</h4>
+            <p className={styles.textFont}>{defaultText.whyUsReasonTwoDesc}</p>
         </div>
     );
 };

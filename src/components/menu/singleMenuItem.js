@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./menu.module.css";
 import images from "../../img";
+import defaultText from "../../defaultText/defaultText";
 import {Counter2} from "../counter/counter";
 
 const SingleMenuItem = () => {
@@ -9,8 +10,8 @@ const SingleMenuItem = () => {
             <div className={styles.singleItemContent}>
                 <img className={styles.singleItemSize} src={images.singleItem} alt=""/>
                 <h4 className={styles.properSpacing}>Мексиканская</h4>
-                <span className={styles.textAlign}>Булка, котлета, сыр, соленый огурец, лук, помидор, салат айсберг, соус чесночный, соус гриль, кетчуп, майонез</span>
-                <h4 className={styles.properSpacing}>200</h4>
+                <span className={styles.textAlign}>{defaultText.singleMenuItemDesc}</span>
+                <h4 className={styles.properSpacing}>{defaultText.singleMenuItemPrice}</h4>
                 <div>
                     <Counter2/>
                 </div>

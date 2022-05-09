@@ -1,6 +1,5 @@
 .viewport{
     width: 99.8%;
-    border: 1px solid orangered;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +7,6 @@
 
 .feedbackFrame{
     width: 74%;
-    border: 1px dotted black;
     display: flex;
     justify-content: flex-start;
 }
@@ -20,7 +18,6 @@
 }
 
 .feedbackComments{
-    border: 1px dotted green;
     width: 74%;
     display: flex;
     justify-content: space-evenly;
@@ -29,7 +26,6 @@
 .bgImg{
     background-image: url("/src/img/pen.png");
     background-size: 100% 100%;
-    border: 1px solid crimson;
     height: 99%;
     display: flex;
     flex-direction: column;

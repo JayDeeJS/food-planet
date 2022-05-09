@@ -7,7 +7,7 @@ import Footer from "./components/footer/footer";
 function App() {
     return (
         <>
-            <Nav/> <br/>
+            <Nav/>
             <Routes>
                 <Route path="/" element={<Main/>}/>
             </Routes>

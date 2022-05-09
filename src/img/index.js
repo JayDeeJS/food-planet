@@ -1,3 +1,5 @@
+import React from "react";
+
 const images = {
     cartLogo: require("./cartLogo.svg").default,
     navLogo: require("./navLogo.svg").default,

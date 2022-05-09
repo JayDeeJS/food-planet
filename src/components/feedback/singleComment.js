@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./feedback.module.css";
 import images from "../../img";
+import defaultText from "../../defaultText/defaultText";
 
 const SingleComment = () => {
     return (
@@ -8,11 +9,11 @@ const SingleComment = () => {
             <div className={styles.bgImg}>
                 <img className={styles.headerImg} src={images.greyHole} alt=""/>
                 <div className={styles.feedbackUser}>
-                    <span className={styles.userName}>Сергей</span>
+                    <span className={styles.userName}>{defaultText.feedbackUserName}</span>
                     <img src={images.penIcon} alt=""/>
                 </div>
-                <p className={styles.textFont}>Большое спасибо! 5 пицц доставили даже быстрее чем планировалось. Пицца была горячая и всему коллективу понравилась! День Рождения прошел отлично! :)</p>
-                <span className={styles.date}>02.07.2020</span>
+                <p className={styles.textFont}>{defaultText.feedbackUserComment}</p>
+                <span className={styles.date}>{defaultText.feedbackCommentDate}</span>
             </div>
         </div>
     );

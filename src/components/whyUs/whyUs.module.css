@@ -7,7 +7,6 @@
 
 .whyUsFrame{
     width: 74%;
-    border: 1px dotted black;
     display: flex;
     justify-content: flex-start;
 }
@@ -19,7 +18,6 @@
 }
 
 .reasonsWhy{
-    border: 1px dotted green;
     width: 74%;
     display: flex;
     justify-content: space-evenly;

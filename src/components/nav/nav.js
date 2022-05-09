@@ -2,6 +2,7 @@ import React from 'react';
 import {NavLink} from "react-router-dom";
 import styles from "./nav.module.css";
 import images from "../../img";
+import defaultText from "../../defaultText/defaultText";
 
 const Nav = () => {
     return (
@@ -44,9 +45,8 @@ const Nav = () => {
                 <div className={styles.subNav}>
                     <div className={styles.subNavLeft}>
                         <div className={styles.subNavText}>
-                            <p className={styles.boldText}>Доставка вкусной еды до 30 минут + напиток в подарок!</p>
-                            <p className={styles.darkColor}>Доставим заказ вовремя и можете рассчитывать, что еда будет доставлена всегда горячей и
-                                ароматной.</p>
+                            <p className={styles.boldText}>{defaultText.subNavTitle}</p>
+                            <p className={styles.darkColor}>{defaultText.subNavDesc}</p>
                             <button className={styles.menuBtn}>ПЕРЕЙТИ В МЕНЮ ➤</button>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Nav = () => {
                         <img className={styles.subNavImg} src={images.subNavLogo}/>
                     </div>
                 </div>
-            </div>
+            </div> <br/>
         </>
     );
 };
