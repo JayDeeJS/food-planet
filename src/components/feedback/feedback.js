@@ -7,13 +7,13 @@ const Feedback = () => {
         <div className={styles.viewport}>
             <div className={styles.feedbackFrame}>
                 <p className={styles.feedbackFont}>Отзывы</p>
-            </div> <br/>
+            </div>
             <div className={styles.feedbackComments}>
                 <SingleComment/>
                 <SingleComment/>
                 <SingleComment/>
                 <SingleComment/>
-            </div> <br/> <br/>
+            </div>
         </div>
     );
 };

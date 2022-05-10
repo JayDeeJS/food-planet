@@ -9,6 +9,7 @@
     width: 74%;
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 30px;
 }
 
 .feedbackFont{
@@ -21,6 +22,7 @@
     width: 74%;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
 .bgImg{

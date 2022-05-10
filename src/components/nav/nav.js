@@ -41,7 +41,6 @@ const Nav = () => {
                         </ul>
                     </nav>
                 </div>
-                <br/>
                 <div className={styles.subNav}>
                     <div className={styles.subNavLeft}>
                         <div className={styles.subNavText}>
@@ -54,7 +53,7 @@ const Nav = () => {
                         <img className={styles.subNavImg} src={images.subNavLogo}/>
                     </div>
                 </div>
-            </div> <br/>
+            </div>
         </>
     );
 };

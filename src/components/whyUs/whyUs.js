@@ -10,13 +10,13 @@ const WhyUs = () => {
         <div className={styles.viewport}>
             <div className={styles.whyUsFrame}>
                 <p className={styles.whyUsFont}>Почему выбирают нас:</p>
-            </div> <br/> <br/>
+            </div>
             <div className={styles.reasonsWhy}>
                 <ReasonOne/>
                 <ReasonTwo/>
                 <ReasonThree/>
                 <ReasonFour/>
-            </div> <br/> <br/>
+            </div>
         </div>
     );
 };

@@ -52,6 +52,7 @@
     width: 71%;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 40px;
 }
 
 .sortText{
@@ -136,10 +137,12 @@
     background-color: floralwhite;
     color: #FF583E;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 
 .MenuLineup{
     width: 74%;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }

@@ -31,14 +31,13 @@ const Menu = () => {
                     <option value="default">По умолчанию</option>
                 </select>
             </div>
-            <br/> <br/>
             <div className={styles.MenuLineup}>
                 <SingleMenuItem/>
                 <SingleMenuItem/>
                 <SingleMenuItem/>
                 <SingleMenuItem/>
-            </div> <br/> <br/>
-            <button className={styles.extendBtn}>ПОКАЗАТЬ ЕЩЕ</button> <br/> <br/>
+            </div>
+            <button className={styles.extendBtn}>ПОКАЗАТЬ ЕЩЕ</button>
         </div>
     )
 }

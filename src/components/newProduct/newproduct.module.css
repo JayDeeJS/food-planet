@@ -3,12 +3,14 @@
     flex-direction: column;
     align-items: center;
     width: 99.8%;
+    margin-bottom: 30px;
 }
 
 .sectionOne{
     width: 75%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .sectionTwo{

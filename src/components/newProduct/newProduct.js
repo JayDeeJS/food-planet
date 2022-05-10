@@ -25,14 +25,14 @@ const NewProduct = () => {
                             </div>
                         </div>
                     </div>
-                </div> <br/>
+                </div>
                 <div className={styles.sectionThree}>
                     <SingleProduct/>
                     <SingleProduct/>
                     <SingleProduct/>
                     <SingleProduct/>
                 </div>
-            </div> <br/> <br/>
+            </div>
         </>
     )
 }
