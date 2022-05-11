@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./menu.module.css";
 import images from "../../img";
 import defaultText from "../../defaultText/defaultText";
-import {Counter2} from "../counter/counter";
+import {Counter} from "../counter/counter";
 
 const SingleMenuItem = () => {
     return (
@@ -13,7 +13,7 @@ const SingleMenuItem = () => {
                 <span className={styles.textAlign}>{defaultText.singleMenuItemDesc}</span>
                 <h4 className={styles.properSpacing}>{defaultText.singleMenuItemPrice}</h4>
                 <div>
-                    <Counter2/>
+                    <Counter/>
                 </div>
             </div>
         </div>
